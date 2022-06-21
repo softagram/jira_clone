@@ -76,6 +76,6 @@ I will not be accepting PR's on this repository. Feel free to fork and maintain 
 
 <h3>
   <a href="https://jira.ivorreic.com/">Visit the live app</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/client">View client</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View API</a>
+  <a href="https://github.com/oldboyxx/jira_clone/tree/master/client">View the client</a> |
+  <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View the API</a>
 </h3>
