@@ -13,20 +13,6 @@ import { RouteNotFoundError } from 'errors';
 import { attachPublicRoutes, attachPrivateRoutes } from './routes';
 
 const establishDatabaseConnection = async (): Promise<void> => {
-  try {
-    await createDatabaseConnection();
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-const initializeExpress = (): void => {
-  const app = express();
-
-  app.use(cors());
-  app.use(express.json());
-  app.use(express.urlencoded());
-
   app.use(addRespondToResponse);
 
   attachPublicRoutes(app);
